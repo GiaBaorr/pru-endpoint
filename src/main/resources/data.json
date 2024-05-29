@@ -1,0 +1,42 @@
+{
+  "current": 0,
+  "three": [
+    {
+      "id": 1,
+      "key": "fox",
+      "status": false
+    },
+    {
+      "id": 2,
+      "key": "cow",
+      "status": false
+    },
+    {
+      "id": 3,
+      "key": "dog",
+      "status": false
+    },
+    {
+      "id": 4,
+      "key": "cat",
+      "status": false
+    }
+  ],
+  "four": [
+    {
+      "id": 5,
+      "key": "walk",
+      "status": false
+    },
+    {
+      "id": 6,
+      "key": "hike",
+      "status": false
+    },
+    {
+      "id": 7,
+      "key": "race",
+      "status": false
+    }
+  ]
+}
