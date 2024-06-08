@@ -39,14 +39,14 @@ public class WordService implements IWordService {
                         .stream()
                         .filter(o -> !o.isStatus())
                         .findFirst()
-                        .orElse(new WordDTO(-1, "finish", true));
+                        .orElse(new WordDTO(-1, "Finish", true));
                 case FOUR -> objectMapper
                         .convertValue(map.get(FOUR), new TypeReference<List<WordDTO>>() {
                         })
                         .stream()
                         .filter(o -> !o.isStatus())
                         .findFirst()
-                        .orElse(new WordDTO(-1, "finish", true));
+                        .orElse(new WordDTO(-1, "Finish", true));
                 default -> null;
             };
         } catch (Exception e) {
